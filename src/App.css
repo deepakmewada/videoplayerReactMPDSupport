@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.video-js.vjs-fluid {
+  position: relative;
+  min-width: 100vw;
+  min-height: 56vw;
+}
+.video-js.vjs-fluid:hover .vjs-control-bar {
+  display: flex;
+}
+.vjs_video_3-dimensions.vjs-fluid {
+  padding: 0;
+}
+.video-js .vjs-big-play-button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  border: 0;
+  background-color: transparent;
+}
+.video-js .vjs-big-play-button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  border: 0;
+  background-color: transparent;
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+.video-js .vjs-big-play-button span {
+  font-size: 6vw;
+  display: flex;
+  line-height: 6vw;
+}
+.video-js .vjs-big-play-button .vjs-icon-placeholder:before {
+  content: "\f101";
+  position: static;
+  display: block;
+}
+.video-js:hover .vjs-big-play-button,
+.video-js .vjs-big-play-button:focus {
+  background-color: transparent;
+}
+.video-js .vjs-control-bar {
+  height: 60px;
+}
+.vjs-button > .vjs-icon-placeholder:before {
+  line-height: 60px;
+}
+.video-js .vjs-time-control {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.vjs-volume-panel .vjs-volume-control {
+  opacity: 1;
+  width: 5em;
+  height: 60px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
